@@ -1,2 +1,2 @@
-# Graduation_Project
- Egyptian Car Plate Characters Recognition and creating Api to serve Reactjs app as a part of Smart parking system.
+# Egyptian Car Plate OCR
+ Developed as part of a Smart Parking System, this project includes a model for recognizing characters on Egyptian car plates. It features an API to serve a React.js web app and a Streamlit app for real-time analysis of images and videos.
