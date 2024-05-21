@@ -10,7 +10,7 @@ import uuid
 import tempfile
 import sys
 sys.path.append("../utils")
-from utils import draw_arabic_text, reverse_arabic, COLORS, CLASS_LABELS_MAPPING, process_video
+from utils import *
 
 app = Flask(__name__)
 CORS(app, origins='*')
