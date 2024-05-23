@@ -8,6 +8,4 @@
 ## Inference on Video
 https://github.com/alyalsayed/Graduation_Project/assets/84514495/6639b0e8-aa42-4229-8516-bfc4b6f00b24
 
-# Full Demo
-https://github.com/alyalsayed/Graduation_Project/assets/84514495/e6ec99cc-f007-494a-9d32-37741a9b2caf
 
