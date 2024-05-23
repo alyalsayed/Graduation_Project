@@ -6,6 +6,7 @@
  <img src="./streamlit/static/processed_images/modified_image.jpg"> 
 
 ## Inference on Video
- <video controls autoplay loop>
-  <source src="./streamlit/static/processed_videos/processed_video.mp4" type="video/mp4">
+ <video controls autoplay loop
+ src="./streamlit/static/processed_videos/processed_video.mp4">
+    
 </video>
