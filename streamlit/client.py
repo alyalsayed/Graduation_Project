@@ -50,12 +50,15 @@ if uploaded_file is not None:
 
                         # Display the modified image and predictions
                         st.image(modified_image, caption='Modified Image with Predictions', use_column_width=True)
+                        st.markdown(f"<div style='text-align: center; font-weight: bold;'>Concatenated Text: {data['concatenated_text']}</div>", unsafe_allow_html=True)
 
                         # Save the modified image to a folder
                         processed_images_folder = os.path.join(os.getcwd(), 'static', 'processed_images')
                         os.makedirs(processed_images_folder, exist_ok=True)
                         modified_image_path = os.path.join(processed_images_folder, 'modified_image.jpg')
                         modified_image.save(modified_image_path)
+
+                        
 
                         st.success(f"Modified image saved at: {modified_image_path}")
                     else:
