@@ -9,4 +9,8 @@
 https://github.com/alyalsayed/Graduation_Project/assets/84514495/6639b0e8-aa42-4229-8516-bfc4b6f00b24
 
 ## Demo Video
-https://github.com/alyalsayed/Graduation_Project/blob/main/testing/Demo/Demo_video.mp4
+<video width="640" height="360" controls>
+  <source src="https://github.com/alyalsayed/Graduation_Project/raw/main/testing/Demo/Demo_video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
