@@ -12,6 +12,7 @@ An end-to-end solution for automatic recognition of Egyptian car plates, develop
 - [API](#api)
 - [Streamlit App](#streamlit-app)
 - [Model Details](#model-details)
+- [Dataset](#dataset)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
@@ -105,16 +106,31 @@ streamlit run app.py
 - **Character Recognition**: Custom CNN, supports both Arabic and numerical characters and another version with YOLOv9
 - Models are located in the `models/` directory.
 
+You can try the hosted model on Roboflow here :
+- [egyptian-cars-database Model](https://universe.roboflow.com/alyalsayed-vyx6g/egyptian-cars-database/model/1).
+
+- [egyptian-car-plates Model](https://universe.roboflow.com/alyalsayed-vyx6g/egyptian-car-plates/model/13).
+
+Also the deployed reactjs web page here :
+- [ Project: Egyptian Car Plate OCR](https://alyalsayed-elpr.netlify.app/).
+
+## Dataset
+The dataset for training the models was collected via Instagram pages and scraped using Python scripts located in the `data_collection/` folder. It is labeled and hosted on Roboflow. Access the dataset here:
+- [egyptian-cars-database Dataset](https://universe.roboflow.com/alyalsayed-vyx6g/egyptian-cars-database/dataset/1).
+
+- [egyptian-car-plates Dataset](https://universe.roboflow.com/alyalsayed-vyx6g/egyptian-car-plates/dataset/13).
+
 ## Project Structure
 ```
 Graduation_Project/
 ├── api/               # Flask API server
+├── data collection/   # Scripts for web scraping
 ├── frontend/          # React.js web application
 ├── streamlit/         # Streamlit dashboard
-├── training/          # Notebooks used for training
-├── testing/           # Scripts for batch inference and evaluation and final results
+├── testing/           # Scripts for batch inference and evaluation
 ├── utils/             # Utility modules (e.g., for drawing, video processing)
 ├── models/            # Pretrained model files (.onnx, etc.)
+├── data_collection/   # Python scripts for scraping and collecting dataset from Instagram
 ├── requirements.txt   # Python dependencies
 └── README.md
 ```
